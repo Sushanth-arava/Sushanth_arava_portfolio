@@ -6,6 +6,7 @@ import {
   Sparkles,
   ShieldCheck,
   Zap,
+  Code,
   Users,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -124,7 +125,7 @@ export function ProjectCard({
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-sm text-[#a1a1aa] hover:text-red-400 transition-colors"
             >
-              <Github size={16} />
+              <Code size={16} />
               Code
             </a>
           )}

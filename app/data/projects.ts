@@ -6,7 +6,15 @@ export const projects: Project[] = [
     title: "Heart Disease Prediction & Recommendation System",
     description:
       "End-to-end heart disease prediction platform using Next.js, a Python Flask API, classical ML models, and OpenAI APIs to generate risk predictions and explainable follow-up insights. Containerized and deployed on Azure Container Apps, achieving 90% test accuracy.",
-    techStack: ["Next.js", "Flask", "OpenAI API", "Azure Container Apps", "Python", "Machine Learning"],
+    techStack: [
+      "Next.js",
+      "Flask",
+      "OpenAI API",
+      "Azure Container Apps",
+      "Python",
+      "Machine Learning",
+    ],
+    githubUrl: "https://github.com/Sushanth-arava/Sushanth_arava_portfolio",
     image: "/projects/placeholder.jpg",
     featured: true,
     highlights: [
@@ -71,8 +79,7 @@ export const projects: Project[] = [
   {
     id: "coming-soon-2",
     title: "Coming Soon",
-    description:
-      "Another innovative project is on the way. Check back soon.",
+    description: "Another innovative project is on the way. Check back soon.",
     techStack: ["???"],
     image: "/projects/placeholder.jpg",
     featured: false,
